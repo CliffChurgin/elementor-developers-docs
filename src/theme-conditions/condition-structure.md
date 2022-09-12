@@ -2,7 +2,7 @@
 
 <Badge type="tip" vertical="top" text="Elementor Pro" /> <Badge type="warning" vertical="top" text="Advanced" />
 
-Each condition needs to have a few basic settings, such as a unique name and label. In addition, a condition should be assigned to a group. A condition could have sub conditions. The final, and most important, is the check method that checks whether the condition complies to certain set of predefined rules.
+Each condition needs to have a few basic settings, such as a unique name and label. In addition, a condition should be assigned to a group. A condition could have subconditions. The final, and most important, is the check method that checks whether the condition complies with a set of predefined rules.
 
 ## Theme Condition Class
 
