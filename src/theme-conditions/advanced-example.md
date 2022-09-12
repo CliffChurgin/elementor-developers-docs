@@ -2,7 +2,7 @@
 
 <Badge type="tip" vertical="top" text="Elementor Pro" /> <Badge type="warning" vertical="top" text="Advanced" />
 
-For a more advanced use-case, we are going to create an addon that registers conditions based on the role of the logged in user. The addon will help Elementor users to display some templates only to specific user roles.
+For a more advanced use-case, we're going to create an addon that registers conditions based on the role of a logged-in visitor. The addon will help Elementor users to display some templates only to vsitors with specific roles.
 
 ## Folder Structure
 
@@ -67,9 +67,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Elementor Logged In User Condition.
+ * Elementor Logged-In User Condition.
  *
- * Add a logged in user condition to Elementor.
+ * Add a logged-in user condition to Elementor.
  *
  * @since 1.0.0
  */
@@ -258,7 +258,7 @@ class User_Role_Condition extends \ElementorPro\Modules\ThemeBuilder\Conditions\
 
 ## The Result
 
-The "Logged In User" > "User Roles" conditions:
+The "Logged-In User" > "User Roles" conditions:
 
 <img :src="$withBase('/assets/img/elementor-theme-conditions-example-user-roles.png')" alt="User role conditions">
 
